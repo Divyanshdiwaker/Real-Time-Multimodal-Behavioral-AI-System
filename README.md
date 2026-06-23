@@ -73,7 +73,7 @@ Unlike traditional deception systems, this project **does not detect lies**. Ins
        │
        ▼
  Emotion CNN
- (128 Features)
+ (138 Features)
        │
        │
        ▼
@@ -124,7 +124,8 @@ Unlike traditional deception systems, this project **does not detect lies**. Ins
 | Architecture   | CNN                                                 |
 | Input          | 48×48 Grayscale Face                                |
 | Classes        | Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral |
-| Embedding Size | 128                                                 |
+| Embedding Size | 138                                                 |
+*Added 10 embeddings for facial landmarks module, gives values for Gaze eye, Head Tilt Angle, Mouth Opening, Brow Raise
 
 ---
 
@@ -153,7 +154,7 @@ Unlike traditional deception systems, this project **does not detect lies**. Ins
 
 | Component      | Details                          |
 | -------------- | -------------------------------- |
-| Input Features | 320                              |
+| Input Features | 330                              |
 | Fusion Method  | Gated Fusion                     |
 | Outputs        | Stress + Behavioral Incongruency |
 
@@ -222,7 +223,7 @@ Real-Time-Multimodal-Behavioral-AI-System
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Real-Time-Multimodal-Behavioral-AI-System.git
+git clone https://github.com/Divyanshdiwaker/Real-Time-Multimodal-Behavioral-AI-System.git
 cd Real-Time-Multimodal-Behavioral-AI-System
 ```
 
@@ -256,16 +257,10 @@ pip install -r requirements.txt
 
 ## 🚀 Running the Project
 
-### Start Backend
+### Start 
 
 ```bash
-python backend/main.py
-```
-
-### Start Frontend
-
-```bash
-streamlit run frontend/app.py
+python -m streamlit run frontend/app.py
 ```
 
 ---
@@ -283,33 +278,7 @@ The system generates:
 
 ---
 
-## 📷 Screenshots
 
-### Dashboard
-
-> Add screenshot here
-
-```text
-screenshots/dashboard.png
-```
-
-### Session Report
-
-> Add screenshot here
-
-```text
-screenshots/report.png
-```
-
-### Real-Time Analysis
-
-> Add screenshot here
-
-```text
-screenshots/analysis.png
-```
-
----
 
 ## 🎯 Applications
 
