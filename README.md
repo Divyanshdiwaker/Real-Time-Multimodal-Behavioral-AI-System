@@ -125,7 +125,7 @@ Unlike traditional deception systems, this project **does not detect lies**. Ins
 | Input          | 48×48 Grayscale Face                                |
 | Classes        | Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral |
 | Embedding Size | 138                                                 |
-*Added 10 embeddings for facial landmarks module, gives values for Gaze eye, Head Tilt Angle, Mouth Opening, Brow Raise
+*Added 10 embeddings for Facial landmarks module, give values for Gaze eye, Head Tilt Angle, Mouth Opening, Brow Raise
 
 ---
 
