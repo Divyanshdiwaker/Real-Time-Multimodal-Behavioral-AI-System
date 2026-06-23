@@ -255,6 +255,21 @@ pip install -r requirements.txt
 
 ---
 
+## Model Weights
+
+Model weight files (`.pth`) are not included in this repository because of their size.
+
+To run the project, place the following files inside:
+
+backend/models/
+
+* emotion_model.pth
+* stress_model.pth
+* fusion_model.pth
+
+Alternatively, train the models using the scripts in the `Training/` directory.
+
+
 ## 🚀 Running the Project
 
 ### Start 
