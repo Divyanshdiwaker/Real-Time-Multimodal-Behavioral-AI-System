@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+numpy
+librosa
+soundfile
+opencv-python
+streamlit
+requests
+transformers
+torch
+torchvision
+sentence-transformers
+openai-whisper
+reportlab
+matplotlib

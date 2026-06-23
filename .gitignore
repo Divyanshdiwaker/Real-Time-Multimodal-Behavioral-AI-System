@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model Files
+*.pth
+*.pt
+
+# Reports
+reports/*.pdf
+
+# Temporary Audio
+*.wav
+
+# Logs
+*.log
+
+# Dataset Files (Optional)
+# Uncomment if datasets are too large
+# Data/
+# dataset/
+
+# Numpy Training Data
+# Uncomment if you don't want to upload training artifacts
+# fusion_data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+fusion_data/
